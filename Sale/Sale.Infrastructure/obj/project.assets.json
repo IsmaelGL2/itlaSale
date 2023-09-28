@@ -2167,6 +2167,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "Sale.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Sale.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sale.Domain.dll": {}
+        }
       }
     }
   },
@@ -7095,12 +7105,18 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "Sale.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Sale.Domain/Sale.Domain.csproj",
+      "msbuildProject": "../Sale.Domain/Sale.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
       "Microsoft.EntityFrameworkCore >= 3.1.32",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.32"
+      "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.32",
+      "Sale.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -7134,7 +7150,11 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\MyProject\\itlaSale\\Sale\\Sale.Domain\\Sale.Domain.csproj": {
+              "projectPath": "D:\\MyProject\\itlaSale\\Sale\\Sale.Domain\\Sale.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
