@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Sale",
+    "\\Sale\\Sale.Domain",
+    "\\Sale\\Sale.Domain\\obj\\Debug\\netstandard2.1",
+    "\\Sale\\Sale.Domain\\obj\\Release",
+    "\\Sale\\Sale.Domain\\obj\\Release\\netstandard2.1"
   ],
+  "SelectedNode": "\\Sale\\Sale.Domain\\obj",
   "PreviewInSolutionExplorer": false
 }
