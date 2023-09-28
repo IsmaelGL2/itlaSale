@@ -8,6 +8,8 @@ namespace Sale.Domain.Core
     {
         public int? Id { get; set; }
 
+        public bool? EsActivo { get; set; }
+
         public DateTime? FechaRegistro { get; set; }
 
         public int? IdUsuarioCreation { get; set; }
