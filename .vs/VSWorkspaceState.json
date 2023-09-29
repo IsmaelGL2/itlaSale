@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Sale"
+    "\\Sale",
+    "\\Sale\\Sale.Domain",
+    "\\Sale\\Sale.Domain\\Repository",
+    "\\Sale\\Sale.Infrastructure"
   ],
   "PreviewInSolutionExplorer": false
 }
