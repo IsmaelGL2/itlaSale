@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Sale.Domain.Repository
 {
-    internal interface IBaseRepository<TEntity> where TEntity : class
+    public interface IBaseRepository<TEntity> where TEntity : class
     {
         void Save(TEntity entity);
         void Update(TEntity entity);

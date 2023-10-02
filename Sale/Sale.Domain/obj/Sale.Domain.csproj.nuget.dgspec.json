@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MyProject\\itlaSale\\Sale\\Sale.Domain\\Sale.Domain.csproj": {}
+    "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo final\\Sale\\Sale.Domain\\Sale.Domain.csproj": {}
   },
   "projects": {
-    "D:\\MyProject\\itlaSale\\Sale\\Sale.Domain\\Sale.Domain.csproj": {
+    "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo final\\Sale\\Sale.Domain\\Sale.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyProject\\itlaSale\\Sale\\Sale.Domain\\Sale.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo final\\Sale\\Sale.Domain\\Sale.Domain.csproj",
         "projectName": "Sale.Domain",
-        "projectPath": "D:\\MyProject\\itlaSale\\Sale\\Sale.Domain\\Sale.Domain.csproj",
-        "packagesPath": "C:\\Users\\K\\.nuget\\packages\\",
-        "outputPath": "D:\\MyProject\\itlaSale\\Sale\\Sale.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo final\\Sale\\Sale.Domain\\Sale.Domain.csproj",
+        "packagesPath": "C:\\Users\\Christian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo final\\Sale\\Sale.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\K\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Christian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

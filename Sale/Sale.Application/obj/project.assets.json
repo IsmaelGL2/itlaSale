@@ -8,24 +8,19 @@
     ".NETStandard,Version=v2.1": []
   },
   "packageFolders": {
-    "C:\\Users\\K\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Christian\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MyProject\\itlaSale\\Sale\\Sale.Application\\Sale.Application.csproj",
+      "projectUniqueName": "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo final\\Sale\\Sale.Application\\Sale.Application.csproj",
       "projectName": "Sale.Application",
-      "projectPath": "D:\\MyProject\\itlaSale\\Sale\\Sale.Application\\Sale.Application.csproj",
-      "packagesPath": "C:\\Users\\K\\.nuget\\packages\\",
-      "outputPath": "D:\\MyProject\\itlaSale\\Sale\\Sale.Application\\obj\\",
+      "projectPath": "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo final\\Sale\\Sale.Application\\Sale.Application.csproj",
+      "packagesPath": "C:\\Users\\Christian\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo final\\Sale\\Sale.Application\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\K\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Christian\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -66,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
