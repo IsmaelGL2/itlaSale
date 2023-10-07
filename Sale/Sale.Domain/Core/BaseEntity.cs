@@ -22,6 +22,6 @@ namespace Sale.Domain.Core
 
         public DateTime? FechaElimino { get; set; }
 
-        public bool? Eliminado { get; set; }
+        public bool Eliminado { get; set; }
     }
 }
