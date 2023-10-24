@@ -1,3 +1,8 @@
+using Microsoft.EntityFrameworkCore;
+using Sale.Infrastructure.Context;
+using Sale.Infrastructure.Interfaces;
+using Sale.Infrastructure.Repositories;
+
 namespace Sale.Api
 {
     public class Program
@@ -7,6 +12,15 @@ namespace Sale.Api
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+
+            //Agregar dependencia del contexto
+            builder.Services.AddDbContext<SaleContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("SaleContext")));
+
+            //Dependencia de los repositores
+            builder.Services.AddTransient<IUsuarioRepository, UsuarioRepository>();
+
+            //Dependencias de los app services
+            
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

@@ -1,0 +1,10 @@
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.loc\bin\Debug\netstandard2.1\Sale.loc.deps.json
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.loc\bin\Debug\netstandard2.1\Sale.loc.dll
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.loc\bin\Debug\netstandard2.1\Sale.loc.pdb
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.loc\obj\Debug\netstandard2.1\Sale.loc.csproj.AssemblyReference.cache
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.loc\obj\Debug\netstandard2.1\Sale.loc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.loc\obj\Debug\netstandard2.1\Sale.loc.AssemblyInfoInputs.cache
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.loc\obj\Debug\netstandard2.1\Sale.loc.AssemblyInfo.cs
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.loc\obj\Debug\netstandard2.1\Sale.loc.csproj.CoreCompileInputs.cache
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.loc\obj\Debug\netstandard2.1\Sale.loc.dll
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.loc\obj\Debug\netstandard2.1\Sale.loc.pdb

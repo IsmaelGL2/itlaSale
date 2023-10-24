@@ -1,38 +1,62 @@
 ﻿using Sale.Domain.Entities;
 using Sale.Domain.Repository;
-using Sale.Infrastructure.Interfaces;
-using System;
 using System.Collections.Generic;
+using Sale.Infrastructure.Interfaces;
 using System.Linq.Expressions;
-using System.Text;
+using System;
+using Sale.Infrastructure.Context;
+using System.Linq;
 
 namespace Sale.Infrastructure.Repositories
 {
     public class UsuarioRepository : IUsuarioRepository
     {
-        public void Delete(Usuario entity)
+        private readonly SaleContext context;
+
+        public UsuarioRepository(SaleContext context) 
+        { 
+            this.context = context;
+        }
+        public Usuario GetUsuario(int Id)
+        {
+            return this.context.Usuarios.Find(Id);
+        }
+
+        public bool Exists(Expression<Func<Usuario, bool>> filter)
         {
             throw new NotImplementedException();
+        }
+
+        public List<Usuario> FindAll(Expression<Func<Usuario, bool>> filter)
+        {
+            throw new NotImplementedException();
+        }
+
+
+        public Usuario GetEntity(int id)
+        {
+             return this.context.Usuarios.Find(id);
         }
 
         public List<Usuario> GetEntities()
         {
-            throw new NotImplementedException();
+            return this.context.Usuarios.ToList();
+            //return this.context.Usuarios.Where(st => !st.Deleted).ToList();
         }
 
-        public Usuario GetEntity(int id)
+        public void Delete(Usuario entity)
         {
-            throw new NotImplementedException();
+            this.context.Remove(entity);
         }
 
         public void Save(Usuario entity)
         {
-            throw new NotImplementedException();
+            this.context.Add(entity);
         }
 
         public void Update(Usuario entity)
         {
-            throw new NotImplementedException();
+            this.context.Update(entity);
         }
     }
 }

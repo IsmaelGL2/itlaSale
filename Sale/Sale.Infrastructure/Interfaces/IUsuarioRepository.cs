@@ -1,8 +1,6 @@
 ﻿using Sale.Domain.Entities;
 using Sale.Domain.Repository;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Sale.Infrastructure.Interfaces
 {
@@ -10,5 +8,7 @@ namespace Sale.Infrastructure.Interfaces
     {
         
         //Aqui van los metodos exclusivos de la entidad
+
+        //List<Usuario> GetUsuarioById(int id);
     }
 }

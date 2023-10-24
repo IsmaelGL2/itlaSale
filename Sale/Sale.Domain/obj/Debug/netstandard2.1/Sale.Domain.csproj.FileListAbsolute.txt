@@ -1,0 +1,10 @@
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Domain\bin\Debug\netstandard2.1\Sale.Domain.deps.json
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Domain\bin\Debug\netstandard2.1\Sale.Domain.dll
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Domain\bin\Debug\netstandard2.1\Sale.Domain.pdb
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Domain\obj\Debug\netstandard2.1\Sale.Domain.csproj.AssemblyReference.cache
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Domain\obj\Debug\netstandard2.1\Sale.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Domain\obj\Debug\netstandard2.1\Sale.Domain.AssemblyInfoInputs.cache
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Domain\obj\Debug\netstandard2.1\Sale.Domain.AssemblyInfo.cs
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Domain\obj\Debug\netstandard2.1\Sale.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Domain\obj\Debug\netstandard2.1\Sale.Domain.dll
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Domain\obj\Debug\netstandard2.1\Sale.Domain.pdb

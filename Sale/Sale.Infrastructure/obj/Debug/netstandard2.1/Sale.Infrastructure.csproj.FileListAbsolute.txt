@@ -1,0 +1,13 @@
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Infrastructure\bin\Debug\netstandard2.1\Sale.Infrastructure.deps.json
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Infrastructure\bin\Debug\netstandard2.1\Sale.Infrastructure.dll
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Infrastructure\bin\Debug\netstandard2.1\Sale.Infrastructure.pdb
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Infrastructure\bin\Debug\netstandard2.1\Sale.Domain.dll
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Infrastructure\bin\Debug\netstandard2.1\Sale.Domain.pdb
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Infrastructure\obj\Debug\netstandard2.1\Sale.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Infrastructure\obj\Debug\netstandard2.1\Sale.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Infrastructure\obj\Debug\netstandard2.1\Sale.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Infrastructure\obj\Debug\netstandard2.1\Sale.Infrastructure.AssemblyInfo.cs
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Infrastructure\obj\Debug\netstandard2.1\Sale.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Infrastructure\obj\Debug\netstandard2.1\Sale.Infrastructure.csproj.CopyComplete
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Infrastructure\obj\Debug\netstandard2.1\Sale.Infrastructure.dll
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Infrastructure\obj\Debug\netstandard2.1\Sale.Infrastructure.pdb

@@ -29,3 +29,34 @@ D:\MyProject\itlaSale\Sale\Sale.Web\obj\Debug\net6.0\refint\Sale.Web.dll
 D:\MyProject\itlaSale\Sale\Sale.Web\obj\Debug\net6.0\Sale.Web.pdb
 D:\MyProject\itlaSale\Sale\Sale.Web\obj\Debug\net6.0\Sale.Web.genruntimeconfig.cache
 D:\MyProject\itlaSale\Sale\Sale.Web\obj\Debug\net6.0\ref\Sale.Web.dll
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Web\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Web\bin\Debug\net6.0\appsettings.json
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Web\bin\Debug\net6.0\Sale.Web.staticwebassets.runtime.json
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Web\bin\Debug\net6.0\Sale.Web.exe
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Web\bin\Debug\net6.0\Sale.Web.deps.json
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Web\bin\Debug\net6.0\Sale.Web.runtimeconfig.json
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Web\bin\Debug\net6.0\Sale.Web.dll
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Web\bin\Debug\net6.0\Sale.Web.pdb
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Web\obj\Debug\net6.0\Sale.Web.csproj.AssemblyReference.cache
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Web\obj\Debug\net6.0\Sale.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Web\obj\Debug\net6.0\Sale.Web.AssemblyInfoInputs.cache
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Web\obj\Debug\net6.0\Sale.Web.AssemblyInfo.cs
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Web\obj\Debug\net6.0\Sale.Web.csproj.CoreCompileInputs.cache
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Web\obj\Debug\net6.0\Sale.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Web\obj\Debug\net6.0\Sale.Web.RazorAssemblyInfo.cache
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Web\obj\Debug\net6.0\Sale.Web.RazorAssemblyInfo.cs
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Web\obj\Debug\net6.0\staticwebassets\msbuild.Sale.Web.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Web\obj\Debug\net6.0\staticwebassets\msbuild.build.Sale.Web.props
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Sale.Web.props
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Sale.Web.props
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Web\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Web\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Web\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Web\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Web\obj\Debug\net6.0\scopedcss\bundle\Sale.Web.styles.css
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Web\obj\Debug\net6.0\scopedcss\projectbundle\Sale.Web.bundle.scp.css
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Web\obj\Debug\net6.0\Sale.Web.dll
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Web\obj\Debug\net6.0\refint\Sale.Web.dll
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Web\obj\Debug\net6.0\Sale.Web.pdb
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Web\obj\Debug\net6.0\Sale.Web.genruntimeconfig.cache
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Web\obj\Debug\net6.0\ref\Sale.Web.dll

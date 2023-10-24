@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq.Expressions;
 using System.Text;
 
 namespace Sale.Domain.Repository
@@ -11,5 +12,9 @@ namespace Sale.Domain.Repository
         void Delete(TEntity entity);
         List<TEntity> GetEntities();
         TEntity GetEntity(int id);
+
+        List<TEntity> FindAll(Expression<Func<TEntity, bool>> filter);
+        bool Exists (Expression<Func<TEntity,bool>> filter);
+        
     }
 }
