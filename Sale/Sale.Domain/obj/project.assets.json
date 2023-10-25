@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MyProject\\itlaSale\\Sale\\Sale.Domain\\Sale.Domain.csproj",
+      "projectUniqueName": "D:\\MyProject\\ItlaSales\\Sale\\Sale.Domain\\Sale.Domain.csproj",
       "projectName": "Sale.Domain",
-      "projectPath": "D:\\MyProject\\itlaSale\\Sale\\Sale.Domain\\Sale.Domain.csproj",
+      "projectPath": "D:\\MyProject\\ItlaSales\\Sale\\Sale.Domain\\Sale.Domain.csproj",
       "packagesPath": "C:\\Users\\K\\.nuget\\packages\\",
-      "outputPath": "D:\\MyProject\\itlaSale\\Sale\\Sale.Domain\\obj\\",
+      "outputPath": "D:\\MyProject\\ItlaSales\\Sale\\Sale.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
