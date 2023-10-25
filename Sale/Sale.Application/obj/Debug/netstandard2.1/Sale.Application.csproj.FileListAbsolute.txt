@@ -1,0 +1,10 @@
+D:\MyProject\itlaSale\Sale\Sale.Application\bin\Debug\netstandard2.1\Sale.Application.deps.json
+D:\MyProject\itlaSale\Sale\Sale.Application\bin\Debug\netstandard2.1\Sale.Application.dll
+D:\MyProject\itlaSale\Sale\Sale.Application\bin\Debug\netstandard2.1\Sale.Application.pdb
+D:\MyProject\itlaSale\Sale\Sale.Application\obj\Debug\netstandard2.1\Sale.Application.csproj.AssemblyReference.cache
+D:\MyProject\itlaSale\Sale\Sale.Application\obj\Debug\netstandard2.1\Sale.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyProject\itlaSale\Sale\Sale.Application\obj\Debug\netstandard2.1\Sale.Application.AssemblyInfoInputs.cache
+D:\MyProject\itlaSale\Sale\Sale.Application\obj\Debug\netstandard2.1\Sale.Application.AssemblyInfo.cs
+D:\MyProject\itlaSale\Sale\Sale.Application\obj\Debug\netstandard2.1\Sale.Application.csproj.CoreCompileInputs.cache
+D:\MyProject\itlaSale\Sale\Sale.Application\obj\Debug\netstandard2.1\Sale.Application.dll
+D:\MyProject\itlaSale\Sale\Sale.Application\obj\Debug\netstandard2.1\Sale.Application.pdb

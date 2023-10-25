@@ -1,0 +1,10 @@
+D:\MyProject\itlaSale\Sale\Sale.Domain\bin\Debug\netstandard2.1\Sale.Domain.deps.json
+D:\MyProject\itlaSale\Sale\Sale.Domain\bin\Debug\netstandard2.1\Sale.Domain.dll
+D:\MyProject\itlaSale\Sale\Sale.Domain\bin\Debug\netstandard2.1\Sale.Domain.pdb
+D:\MyProject\itlaSale\Sale\Sale.Domain\obj\Debug\netstandard2.1\Sale.Domain.csproj.AssemblyReference.cache
+D:\MyProject\itlaSale\Sale\Sale.Domain\obj\Debug\netstandard2.1\Sale.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyProject\itlaSale\Sale\Sale.Domain\obj\Debug\netstandard2.1\Sale.Domain.AssemblyInfoInputs.cache
+D:\MyProject\itlaSale\Sale\Sale.Domain\obj\Debug\netstandard2.1\Sale.Domain.AssemblyInfo.cs
+D:\MyProject\itlaSale\Sale\Sale.Domain\obj\Debug\netstandard2.1\Sale.Domain.csproj.CoreCompileInputs.cache
+D:\MyProject\itlaSale\Sale\Sale.Domain\obj\Debug\netstandard2.1\Sale.Domain.dll
+D:\MyProject\itlaSale\Sale\Sale.Domain\obj\Debug\netstandard2.1\Sale.Domain.pdb
