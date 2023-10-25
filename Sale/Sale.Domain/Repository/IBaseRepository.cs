@@ -11,8 +11,8 @@ namespace Sale.Domain.Repository
         void Save(TEntity entity);
         void Update(TEntity entity);
         void Delete(TEntity entity);
-        List<TEntity> GetEntities();
-        TEntity GetEntity(int id);
+        List<TEntity> GetProductos();
+        TEntity GetProducto(int id);
         bool Exists(Expression<Func<Producto, bool>> filter);
     }
 }

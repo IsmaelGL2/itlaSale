@@ -1,4 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Metadata;
+using Sale.Domain.Entities;
+using Sale.Infrastructure.Interfaces;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -8,11 +11,20 @@ namespace Sale.Api.Controllers
     [ApiController]
     public class ProductoController : ControllerBase
     {
+
+        private readonly IProductoRepository productoRepository;
+
+        public ProductoController(IProductoRepository productoRepository)
+        {
+            this.productoRepository = productoRepository;
+        }
+
         // GET: api/<ProductoController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<Producto> Get()
         {
-            return new string[] { "value1", "value2" };
+            var productos = this.productoRepository.GetProductos();
+            return productos;
         }
 
         // GET api/<ProductoController>/5

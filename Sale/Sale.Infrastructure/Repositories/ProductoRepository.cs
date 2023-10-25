@@ -29,12 +29,13 @@ namespace Sale.Infrastructure.Repositories
             this.context.productos.Remove(producto);
         }
 
-        public List<Producto> GetEntities()
+        public List<Producto> GetProductos()
         {
-            return this.context.productos.Where(pt => !pt.Eliminado).ToList();
+            //return this.context.productos.Where(pt => pt.Eliminado).ToList();
+            return this.context.productos.ToList();
         }
 
-        public Producto GetEntity(int id)
+        public Producto GetProducto(int id)
         {
             return this.context.productos.Find(id);
         }
