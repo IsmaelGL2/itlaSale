@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y8XKEDCfF0vz7+mx8vM+BoLM4Z0L5js5R5ruQmF+NFhEepexZ8r0dbfu8FC++4ClRNGgiJCMx3YwfgIhnY6m1Q==",
+  "dgSpecHash": "VCnPcVXgo5hHdJV+GDjjCZ0fKrW3LdInu0wPSI+7rVgfThfTdRzh+Zitf3ZrEh0WVgjjZDp0zq8JcnmbtqM4Sw==",
   "success": true,
-  "projectFilePath": "D:\\MyProject\\ItlaSales\\Sale\\Sale.Infrastructure\\Sale.Infrastructure.csproj",
+  "projectFilePath": "D:\\MyProject\\itlaSales\\Sale\\Sale.Infrastructure\\Sale.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\K\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\K\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
