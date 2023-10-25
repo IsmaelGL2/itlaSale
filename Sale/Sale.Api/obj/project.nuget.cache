@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2hyeC5W1Wda9YlmkYu+wMl09mm2BMrfbJPj2eT+xZd3qTxY7reafN/+WRqfj3cuCN7I3L1bBduVLK7aoqgSkbA==",
+  "dgSpecHash": "zVCxHU2yKFQfr1b4O4/C1STs7L3xt5sP5R7BtFkkk+B0kOMMaMuuUA/8vJnWYAZNtoMdF9sQyVnFGN5I4W6nVg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo final\\Sale\\Sale.Api\\Sale.Api.csproj",
+  "projectFilePath": "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo Final\\Sale\\Sale.Api\\Sale.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Christian\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Christian\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",

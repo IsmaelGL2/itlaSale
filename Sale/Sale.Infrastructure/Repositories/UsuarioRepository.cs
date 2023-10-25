@@ -24,12 +24,12 @@ namespace Sale.Infrastructure.Repositories
 
         public bool Exists(Expression<Func<Usuario, bool>> filter)
         {
-            throw new NotImplementedException();
+            return this.context.Usuarios.Any(filter);
         }
 
         public List<Usuario> FindAll(Expression<Func<Usuario, bool>> filter)
         {
-            throw new NotImplementedException();
+            return this.context.Usuarios.Where(filter).ToList();
         }
 
 
