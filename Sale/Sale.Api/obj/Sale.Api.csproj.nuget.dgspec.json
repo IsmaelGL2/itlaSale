@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MyProject\\ItlaSales\\Sale\\Sale.Api\\Sale.Api.csproj": {}
+    "D:\\MyProject\\itlaSales\\Sale\\Sale.Api\\Sale.Api.csproj": {}
   },
   "projects": {
-    "D:\\MyProject\\ItlaSales\\Sale\\Sale.Api\\Sale.Api.csproj": {
+    "D:\\MyProject\\itlaSales\\Sale\\Sale.Api\\Sale.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyProject\\ItlaSales\\Sale\\Sale.Api\\Sale.Api.csproj",
+        "projectUniqueName": "D:\\MyProject\\itlaSales\\Sale\\Sale.Api\\Sale.Api.csproj",
         "projectName": "Sale.Api",
-        "projectPath": "D:\\MyProject\\ItlaSales\\Sale\\Sale.Api\\Sale.Api.csproj",
+        "projectPath": "D:\\MyProject\\itlaSales\\Sale\\Sale.Api\\Sale.Api.csproj",
         "packagesPath": "C:\\Users\\K\\.nuget\\packages\\",
-        "outputPath": "D:\\MyProject\\ItlaSales\\Sale\\Sale.Api\\obj\\",
+        "outputPath": "D:\\MyProject\\itlaSales\\Sale\\Sale.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
