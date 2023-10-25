@@ -11,3 +11,16 @@ D:\MyProject\itlaSale\Sale\Sale.Infrastructure\obj\Debug\netstandard2.1\Sale.Inf
 D:\MyProject\itlaSale\Sale\Sale.Infrastructure\obj\Debug\netstandard2.1\Sale.Infrastructure.csproj.CopyComplete
 D:\MyProject\itlaSale\Sale\Sale.Infrastructure\obj\Debug\netstandard2.1\Sale.Infrastructure.dll
 D:\MyProject\itlaSale\Sale\Sale.Infrastructure\obj\Debug\netstandard2.1\Sale.Infrastructure.pdb
+D:\MyProject\itlaSales\Sale\Sale.Infrastructure\bin\Debug\netstandard2.1\Sale.Infrastructure.deps.json
+D:\MyProject\itlaSales\Sale\Sale.Infrastructure\bin\Debug\netstandard2.1\Sale.Infrastructure.dll
+D:\MyProject\itlaSales\Sale\Sale.Infrastructure\bin\Debug\netstandard2.1\Sale.Infrastructure.pdb
+D:\MyProject\itlaSales\Sale\Sale.Infrastructure\bin\Debug\netstandard2.1\Sale.Domain.dll
+D:\MyProject\itlaSales\Sale\Sale.Infrastructure\bin\Debug\netstandard2.1\Sale.Domain.pdb
+D:\MyProject\itlaSales\Sale\Sale.Infrastructure\obj\Debug\netstandard2.1\Sale.Infrastructure.csproj.AssemblyReference.cache
+D:\MyProject\itlaSales\Sale\Sale.Infrastructure\obj\Debug\netstandard2.1\Sale.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyProject\itlaSales\Sale\Sale.Infrastructure\obj\Debug\netstandard2.1\Sale.Infrastructure.AssemblyInfoInputs.cache
+D:\MyProject\itlaSales\Sale\Sale.Infrastructure\obj\Debug\netstandard2.1\Sale.Infrastructure.AssemblyInfo.cs
+D:\MyProject\itlaSales\Sale\Sale.Infrastructure\obj\Debug\netstandard2.1\Sale.Infrastructure.csproj.CoreCompileInputs.cache
+D:\MyProject\itlaSales\Sale\Sale.Infrastructure\obj\Debug\netstandard2.1\Sale.Infrastructure.csproj.CopyComplete
+D:\MyProject\itlaSales\Sale\Sale.Infrastructure\obj\Debug\netstandard2.1\Sale.Infrastructure.dll
+D:\MyProject\itlaSales\Sale\Sale.Infrastructure\obj\Debug\netstandard2.1\Sale.Infrastructure.pdb
