@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tUP7FG9GTpfTsLBZIs/GqUwAr3HHfh9dZM1imqDnVIILc/svDj972nxB5RURtMkhulj+btDS8FXQKSbpsUaXhA==",
+  "dgSpecHash": "IbOzCjDgp6Jzs09nOpT2pvsii4Q37sJl2uFQQcbUjxrjkZd8dzuBlmMas+ca9E2ljVPwEWgRFfOkQL8wNOEY+Q==",
   "success": true,
-  "projectFilePath": "C:\\CarpetaProgramas\\itlaSale\\Sale\\Sale.Domain\\Sale.Domain.csproj",
+  "projectFilePath": "D:\\MyProject\\itlaSales\\Sale\\Sale.Domain\\Sale.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
