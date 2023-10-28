@@ -12,7 +12,7 @@ namespace Sale.Domain.Core
 
         public DateTime? FechaRegistro { get; set; }
 
-        public int? IdUsuarioCreation { get; set; }
+        public int? IdUsuarioCreacion { get; set; }
 
         public DateTime? FechaMod { get; set; }
 
