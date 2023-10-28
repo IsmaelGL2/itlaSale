@@ -14,6 +14,6 @@ namespace Sale.Domain.Entities
         public int? Stock { get; set; }
         public string? UrlImagen { get; set;}
         public string? NombreImagen { get; set;}
-        public double? Precio { get; set;}
+        public decimal? Precio { get; set;}
     }
 }

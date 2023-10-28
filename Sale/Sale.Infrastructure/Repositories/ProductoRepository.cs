@@ -32,7 +32,6 @@ namespace Sale.Infrastructure.Repositories
         public List<Producto> GetProductos()
         {
             return this.context.Producto.Where(pt => !pt.Eliminado).ToList();
-            //return this.context.productos.ToList();
         }
 
         public Producto GetProducto(int id)

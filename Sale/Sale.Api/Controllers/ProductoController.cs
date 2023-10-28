@@ -29,9 +29,9 @@ namespace Sale.Api.Controllers
 
         // GET api/<ProductoController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public Producto Get(int id)
         {
-            return "value";
+            return this.productoRepository.GetProducto(id);
         }
 
         // POST api/<ProductoController>
