@@ -14,12 +14,7 @@ namespace Sale.Infrastructure.Context
            
         }
 
-        public DbSet<Producto> productos { get; set; }
+        public DbSet<Producto> Producto { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-C6MC1E9;Database=Sales;User ID=Ismael;Password=Rapido.12345;MultipleActiveResultSets=true",
-                sqlServerOptionsAction => sqlServerOptionsAction.EnableRetryOnFailure());
-        }
     }
 }

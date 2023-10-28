@@ -21,33 +21,33 @@ namespace Sale.Infrastructure.Repositories
 
         public bool Exists(Expression<Func<Producto, bool>> filter)
         {
-            return this.context.productos.Any(filter);
+            return this.context.Producto.Any(filter);
         }
 
         public void Delete(Producto producto)
         {
-            this.context.productos.Remove(producto);
+            this.context.Producto.Remove(producto);
         }
 
         public List<Producto> GetProductos()
         {
-            return this.context.productos.Where(pt => !pt.Eliminado).ToList();
+            return this.context.Producto.Where(pt => !pt.Eliminado).ToList();
             //return this.context.productos.ToList();
         }
 
         public Producto GetProducto(int id)
         {
-            return this.context.productos.Find(id);
+            return this.context.Producto.Find(id);
         }
 
         public void Save(Producto producto)
         {
-            this.context.productos.Add(producto);
+            this.context.Producto.Add(producto);
         }
 
         public void Update(Producto producto)
         {
-            this.context.productos.Update(producto);
+            this.context.Producto.Update(producto);
         }
     }
 }
