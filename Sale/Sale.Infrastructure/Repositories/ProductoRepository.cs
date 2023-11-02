@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Internal;
 using Sale.Domain.Entities;
+using Sale.Domain.Repository;
 using Sale.Infrastructure.Context;
 using Sale.Infrastructure.Interfaces;
 using System;
@@ -10,7 +11,7 @@ using System.Text;
 
 namespace Sale.Infrastructure.Repositories
 {
-    public class ProductoRepository : IProductoRepository
+    public class ProductoRepository : IBaseRepository<Producto>, IProductoRepository
     {
         private readonly SaleContext context;
 
@@ -31,12 +32,20 @@ namespace Sale.Infrastructure.Repositories
 
         public List<Producto> GetProductos()
         {
-            return this.context.Producto.Where(pt => !pt.Eliminado).ToList();
+            var products = (from pt in this.GetProductos()
+                            join depto in this.context.Producto on pt.Id equals depto.Id
+                            where !pt.Eliminado
+                            select new Producto()
+                            {
+
+                            }).ToList();
+            return products;
         }
 
         public Producto GetProducto(int id)
         {
-            return this.context.Producto.Find(id);
+            //return this.context.Producto.Find(id);
+            return this.GetProductos().SingleOrDefault(pt  => pt.Id == id);
         }
 
         public void Save(Producto producto)
@@ -47,6 +56,11 @@ namespace Sale.Infrastructure.Repositories
         public void Update(Producto producto)
         {
             this.context.Producto.Update(producto);
+        }
+
+        public List<Producto> FindAll(Expression<Func<Producto, bool>> filter)
+        {
+            throw new NotImplementedException();
         }
     }
 }

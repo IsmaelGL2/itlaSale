@@ -9,5 +9,9 @@ namespace Sale.Infrastructure.Interfaces
     public interface IProductoRepository : IBaseRepository<Producto>
     {
 
+        List<Producto> GetProductosById(int Productoid);
+
+        Producto GetProductoMent(int id);
+
     }
 }

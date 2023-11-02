@@ -14,5 +14,6 @@ namespace Sale.Domain.Repository
         List<Producto> GetProductos();
         TEntity GetProducto(int id);
         bool Exists(Expression<Func<Producto, bool>> filter);
+        List<TEntity> FindAll(Expression<Func<TEntity, bool>> filter);
     }
 }
