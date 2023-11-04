@@ -14,7 +14,7 @@ namespace Sale.Infrastructure.Context
            
         }
 
-        public DbSet<Producto> Producto { get; set; }
+        public DbSet<Producto> Productos { get; set; }
 
     }
 }

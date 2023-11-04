@@ -2,6 +2,7 @@
 using Sale.Domain.Entities;
 using Sale.Domain.Repository;
 using Sale.Infrastructure.Context;
+using Sale.Infrastructure.Core;
 using Sale.Infrastructure.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -11,56 +12,50 @@ using System.Text;
 
 namespace Sale.Infrastructure.Repositories
 {
-    public class ProductoRepository : IBaseRepository<Producto>, IProductoRepository
+    public class ProductoRepository : BaseRepository<Producto> , IProductoRepository
     {
         private readonly SaleContext context;
 
-        public ProductoRepository(SaleContext context)
+        public ProductoRepository(SaleContext context): base(context) 
         {
             this.context = context;
         }
 
-        public bool Exists(Expression<Func<Producto, bool>> filter)
+        public override void Save(Producto entity)
         {
-            return this.context.Producto.Any(filter);
+            context.Productos.Add(entity);
+            context.SaveChanges();
         }
 
-        public void Delete(Producto producto)
+        public override void Update(Producto entity)
         {
-            this.context.Producto.Remove(producto);
+            var productoToUpdate = base.GetEntity(entity.Id);
+
+            productoToUpdate.CodigoBarra = entity.CodigoBarra;
+            productoToUpdate.Marca = entity.Marca;
+            productoToUpdate.Descripcion = entity.Descripcion;
+            productoToUpdate.IdCategoria = entity.IdCategoria;
+            productoToUpdate.Stock = entity.Stock;
+            productoToUpdate.UrlImagen = entity.UrlImagen;
+            productoToUpdate.NombreImagen = entity.NombreImagen;
+            productoToUpdate.Precio = entity.Precio;
+            productoToUpdate.FechaMod = entity.FechaMod;
+            productoToUpdate.Id = entity.Id;
+
+            context.Productos.Update(productoToUpdate);
+            context.SaveChanges();
+
         }
 
-        public List<Producto> GetProductos()
-        {
-            var products = (from pt in this.GetProductos()
-                            join depto in this.context.Producto on pt.Id equals depto.Id
-                            where !pt.Eliminado
-                            select new Producto()
-                            {
-
-                            }).ToList();
-            return products;
-        }
-
-        public Producto GetProducto(int id)
-        {
-            //return this.context.Producto.Find(id);
-            return this.GetProductos().SingleOrDefault(pt  => pt.Id == id);
-        }
-
-        public void Save(Producto producto)
-        {
-            this.context.Producto.Add(producto);
-        }
-
-        public void Update(Producto producto)
-        {
-            this.context.Producto.Update(producto);
-        }
-
-        public List<Producto> FindAll(Expression<Func<Producto, bool>> filter)
+        public Producto GetProductoMent(int id)
         {
             throw new NotImplementedException();
         }
+
+        public List<Producto> GetProductosById(int Productoid)
+        {
+            throw new NotImplementedException();
+        }
+
     }
 }
