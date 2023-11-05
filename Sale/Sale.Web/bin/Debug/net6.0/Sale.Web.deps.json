@@ -933,6 +933,9 @@
         }
       },
       "Sale.Application/1.0.0": {
+        "dependencies": {
+          "Sale.Infrastructure": "1.0.0"
+        },
         "runtime": {
           "Sale.Application.dll": {}
         }

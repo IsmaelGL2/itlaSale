@@ -31,7 +31,11 @@
         "frameworks": {
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\MyProject\\itlaSales\\Sale\\Sale.Infrastructure\\Sale.Infrastructure.csproj": {
+                "projectPath": "D:\\MyProject\\itlaSales\\Sale\\Sale.Infrastructure\\Sale.Infrastructure.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

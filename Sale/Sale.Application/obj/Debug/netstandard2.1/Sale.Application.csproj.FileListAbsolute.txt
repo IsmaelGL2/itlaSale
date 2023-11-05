@@ -18,3 +18,8 @@ D:\MyProject\itlaSales\Sale\Sale.Application\obj\Debug\netstandard2.1\Sale.Appli
 D:\MyProject\itlaSales\Sale\Sale.Application\obj\Debug\netstandard2.1\Sale.Application.csproj.CoreCompileInputs.cache
 D:\MyProject\itlaSales\Sale\Sale.Application\obj\Debug\netstandard2.1\Sale.Application.dll
 D:\MyProject\itlaSales\Sale\Sale.Application\obj\Debug\netstandard2.1\Sale.Application.pdb
+D:\MyProject\itlaSales\Sale\Sale.Application\bin\Debug\netstandard2.1\Sale.Domain.dll
+D:\MyProject\itlaSales\Sale\Sale.Application\bin\Debug\netstandard2.1\Sale.Infrastructure.dll
+D:\MyProject\itlaSales\Sale\Sale.Application\bin\Debug\netstandard2.1\Sale.Infrastructure.pdb
+D:\MyProject\itlaSales\Sale\Sale.Application\bin\Debug\netstandard2.1\Sale.Domain.pdb
+D:\MyProject\itlaSales\Sale\Sale.Application\obj\Debug\netstandard2.1\Sale.Application.csproj.CopyComplete
