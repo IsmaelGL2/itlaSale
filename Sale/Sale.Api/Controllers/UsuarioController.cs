@@ -46,6 +46,7 @@ namespace Sale.Api.Controllers
         }*/
 
 
+
         [HttpGet("GetUsuario")]
         public IActionResult Get(int id)
         {
