@@ -11,7 +11,7 @@
         "projectName": "Sale.Domain",
         "projectPath": "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo Final\\Sale\\Sale.Domain\\Sale.Domain.csproj",
         "packagesPath": "C:\\Users\\Christian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo final\\Sale\\Sale.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo Final\\Sale\\Sale.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Christian\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -66,7 +66,7 @@
         "projectName": "Sale.Infrastructure",
         "projectPath": "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo Final\\Sale\\Sale.Infrastructure\\Sale.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Christian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo final\\Sale\\Sale.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo Final\\Sale\\Sale.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Christian\\AppData\\Roaming\\NuGet\\NuGet.Config",

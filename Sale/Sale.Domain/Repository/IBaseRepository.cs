@@ -13,8 +13,10 @@ namespace Sale.Domain.Repository
         List<TEntity> GetEntities();
         TEntity GetEntity(int id);
 
+
+        bool Exists(Expression<Func<TEntity, bool>> filter);
         List<TEntity> FindAll(Expression<Func<TEntity, bool>> filter);
-        bool Exists (Expression<Func<TEntity,bool>> filter);
+        
         
     }
 }

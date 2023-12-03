@@ -6,13 +6,13 @@ namespace Sale.Domain.Core
 {
     public abstract class BaseEntity
     {
-        public int? Id { get; set; }
+        public int Id { get; set; }
 
         public bool? EsActivo { get; set; }
 
         public DateTime? FechaRegistro { get; set; }
 
-        public int? IdUsuarioCreation { get; set; }
+        public int? IdUsuarioCreacion { get; set; }
 
         public DateTime? FechaMod { get; set; }
 

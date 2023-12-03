@@ -8,7 +8,6 @@ namespace Sale.Infrastructure.Interfaces
     {
         
         //Aqui van los metodos exclusivos de la entidad
-
         //List<Usuario> GetUsuarioById(int id);
     }
 }

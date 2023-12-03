@@ -13,17 +13,11 @@ namespace Sale.Infrastructure.Core
         private readonly SaleContext context;
         private DbSet<TEntity> entities;
 
-        public BaseRepository(SaleContext context) 
+        public BaseRepository(SaleContext context)
         {
             this.context = context;
             this.entities = this.context.Set<TEntity>();
         }
-
-        public virtual void Delete(TEntity entity)
-        {
-            this.entities.Remove(entity);
-        }
-
         public virtual bool Exists(Expression<Func<TEntity, bool>> filter)
         {
             return this.entities.Any(filter);
@@ -46,6 +40,11 @@ namespace Sale.Infrastructure.Core
             //return this.entities.FirstOrDefault();
         }
 
+        public virtual void Delete(TEntity entity)
+        {
+            this.entities.Remove(entity);
+        }
+
         public virtual void Save(TEntity entity)
         {
             this.entities.Add(entity);
@@ -55,5 +54,9 @@ namespace Sale.Infrastructure.Core
         {
             this.entities.Update(entity);
         }
+
+        
+
+       
     }
 }
