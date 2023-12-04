@@ -19,7 +19,23 @@ namespace Sale.Infrastructure.Repositories
             this.context = context;
         }
 
-        
+        public override void Save(Usuario entity)
+        {
+            context.Usuarios.Add(entity);
+            context.SaveChanges();
+        }
+        public override void Update(Usuario entity)
+        {
+            var usuarioToUpdate = base.GetEntity(entity.Id);
+
+            usuarioToUpdate.Nombre = entity.Nombre;
+            usuarioToUpdate.Correo = entity.Correo;
+            usuarioToUpdate.Telefono = entity.Telefono;
+            usuarioToUpdate.FechaRegistro = entity.FechaRegistro;
+
+            context.Usuarios.Update(usuarioToUpdate);
+            context.SaveChanges();
+        }
     }
 
 }

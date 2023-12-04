@@ -3,6 +3,9 @@
 //using Sale.Domain.Repository;
 using Sale.Infrastructure.Interfaces;
 using Sale.Api.Models.Modules.Usuario;
+using Sale.Domain.Entities;
+
+
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -18,7 +21,7 @@ namespace Sale.Api.Controllers
         {
             this.usuarioRepository = usuarioRepository;
         }
-        // GET: api/<UsuarioController>
+
         [HttpGet("GetUsuarios")]
         public IActionResult Get()
         {
@@ -45,8 +48,6 @@ namespace Sale.Api.Controllers
             return "value";
         }*/
 
-
-
         [HttpGet("GetUsuario")]
         public IActionResult Get(int id)
         {
@@ -71,24 +72,57 @@ namespace Sale.Api.Controllers
         }
 
 
-
-
-        // POST api/<UsuarioController>
-        [HttpPost]
-        public void Post([FromBody] string value)
+        [HttpPost("SaveUsuario")]
+        public IActionResult Post([FromBody] UsuarioAppModel usuarioApp)
         {
+            if (usuarioApp == null)
+            {
+                return BadRequest("Los datos del usuario no pueden estar vacíos.");
+            }
+
+            this.usuarioRepository.Save(new Usuario()
+            {
+                FechaRegistro = usuarioApp.FechaMod,
+                Correo = usuarioApp.Correo,
+                Telefono = usuarioApp.Telefono,
+                Nombre = usuarioApp.Nombre,
+                Eliminado = false,
+                IdUsuarioCreacion = usuarioApp.ChangeUser
+
+            }) ;
+
+            return Ok();
+        }
+
+        
+        [HttpPut(" UpdateUsuario")]
+        public IActionResult Put([FromBody] UsuarioUpdateModel usuarioUpdate)
+        {
+            this.usuarioRepository.Update(new Usuario()
+            {
+                FechaRegistro = usuarioUpdate.FechaRegistro,
+                Correo = usuarioUpdate.Correo,
+                Telefono = usuarioUpdate.Telefono,
+                Nombre = usuarioUpdate.Nombre,
+                Id = usuarioUpdate.Id
+
+            });
+
+            return Ok();
         }
 
         // PUT api/<UsuarioController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        /*[HttpPut(" UpdateUsuario)")]
+        public void Put(int id, [FromBody] UsuarioUpdateModel usuarioUpdate)
         {
-        }
+        }*/
+
+
 
         // DELETE api/<UsuarioController>/5
-        [HttpDelete("{id}")]
+        /*[HttpDelete("{id}")]
         public void Delete(int id)
         {
-        }
+        }*/
     }
 }
