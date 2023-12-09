@@ -8,3 +8,10 @@ C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.loc\o
 C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.loc\obj\Debug\netstandard2.1\Sale.loc.csproj.CoreCompileInputs.cache
 C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.loc\obj\Debug\netstandard2.1\Sale.loc.dll
 C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.loc\obj\Debug\netstandard2.1\Sale.loc.pdb
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo Final\Sale\Sale.loc\bin\Debug\netstandard2.1\Sale.Application.dll
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo Final\Sale\Sale.loc\bin\Debug\netstandard2.1\Sale.Domain.dll
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo Final\Sale\Sale.loc\bin\Debug\netstandard2.1\Sale.Infrastructure.dll
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo Final\Sale\Sale.loc\bin\Debug\netstandard2.1\Sale.Application.pdb
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo Final\Sale\Sale.loc\bin\Debug\netstandard2.1\Sale.Domain.pdb
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo Final\Sale\Sale.loc\bin\Debug\netstandard2.1\Sale.Infrastructure.pdb
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo Final\Sale\Sale.loc\obj\Debug\netstandard2.1\Sale.loc.csproj.CopyComplete

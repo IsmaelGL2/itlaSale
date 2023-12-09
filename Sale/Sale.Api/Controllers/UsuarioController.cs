@@ -4,6 +4,8 @@
 using Sale.Infrastructure.Interfaces;
 using Sale.Api.Models.Modules.Usuario;
 using Sale.Domain.Entities;
+using Sale.Application.Contracts;
+using Sale.Application.Dtos.Usuario;
 
 
 
@@ -15,30 +17,22 @@ namespace Sale.Api.Controllers
     [ApiController]
     public class UsuarioController : ControllerBase
     {
-        private readonly IUsuarioRepository usuarioRepository;
+        private readonly IUsuarioService usuarioService;
 
-        public UsuarioController(IUsuarioRepository usuarioRepository)
+        public UsuarioController(IUsuarioService usuarioService)
         {
-            this.usuarioRepository = usuarioRepository;
+            this.usuarioService = usuarioService;
         }
 
         [HttpGet("GetUsuarios")]
         public IActionResult Get()
         {
-            var usuarios = this.usuarioRepository.GetEntities()
-                                                 .Select(st => 
-                                                          new GetusuarioModel ()
-                                                          {
-                                                              FechaRegistro = st.FechaRegistro,
-                                                              Correo = st.Correo,
-                                                              Telefono = st.Telefono,
-                                                              Nombre = st.Nombre,
-                                                              UsuarioId = st.Id
+            var result = this.usuarioService.GetAll();
 
-                                                          });
+            if(!result.Success) 
+                return BadRequest(result);
 
-
-            return Ok(usuarios);
+            return Ok(result);
         }
 
         // GET api/<UsuarioController>/5
@@ -51,64 +45,43 @@ namespace Sale.Api.Controllers
         [HttpGet("GetUsuario")]
         public IActionResult Get(int id)
         {
-            var usuario = this.usuarioRepository.GetEntity(id);
-
-            if (usuario == null)
+            var result = this.usuarioService.GetById(id);
+            //var usuario = this.usuarioRepository.GetEntity(id);
+            if (!result.Success)
+                return BadRequest(result);
+            
+            /*if (result == null)
             {
                 return NotFound(); // Usuario no encontrado
-            }
+            }*/
 
-            GetusuarioModel usuarioModel = new GetusuarioModel() 
-            {
-                FechaRegistro = usuario.FechaRegistro,
-                Correo = usuario.Correo,
-                Telefono = usuario.Telefono,
-                Nombre = usuario.Nombre,
-                UsuarioId = usuario.Id
-            };
-    
-
-            return Ok(usuarioModel);
+            return Ok(result);
         }
 
 
         [HttpPost("SaveUsuario")]
-        public IActionResult Post([FromBody] UsuarioAppModel usuarioApp)
+        public IActionResult Post([FromBody] UsuarioDtoAdd usuarioApp)
         {
-            if (usuarioApp == null)
+            /*if (usuarioApp == null)
             {
                 return BadRequest("Los datos del usuario no pueden estar vacíos.");
-            }
-
-            this.usuarioRepository.Save(new Usuario()
-            {
-                FechaRegistro = usuarioApp.FechaMod,
-                Correo = usuarioApp.Correo,
-                Telefono = usuarioApp.Telefono,
-                Nombre = usuarioApp.Nombre,
-                Eliminado = false,
-                IdUsuarioCreacion = usuarioApp.ChangeUser
-
-            }) ;
-
-            return Ok();
+            }*/
+            var result = this.usuarioService.Save(usuarioApp);
+            if (!result.Success)
+                return BadRequest(result);
+            
+            return Ok(result);
         }
 
         
-        [HttpPut(" UpdateUsuario")]
-        public IActionResult Put([FromBody] UsuarioUpdateModel usuarioUpdate)
+        [HttpPut(" DeleteUsuario")]
+        public IActionResult Delete([FromBody] UsuarioDtoDelete usurioDtoDelete)
         {
-            this.usuarioRepository.Update(new Usuario()
-            {
-                FechaRegistro = usuarioUpdate.FechaRegistro,
-                Correo = usuarioUpdate.Correo,
-                Telefono = usuarioUpdate.Telefono,
-                Nombre = usuarioUpdate.Nombre,
-                Id = usuarioUpdate.Id
+            var result = this.usuarioService.Delete(usurioDtoDelete);
+            if (!result.Success)
+                return BadRequest(result);
 
-            });
-
-            return Ok();
+            return Ok(result);
         }
 
         // PUT api/<UsuarioController>/5
@@ -116,9 +89,6 @@ namespace Sale.Api.Controllers
         public void Put(int id, [FromBody] UsuarioUpdateModel usuarioUpdate)
         {
         }*/
-
-
-
         // DELETE api/<UsuarioController>/5
         /*[HttpDelete("{id}")]
         public void Delete(int id)

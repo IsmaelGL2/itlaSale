@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "Sale.Api/1.0.0": {
         "dependencies": {
-          "Sale.Infrastructure": "1.0.0",
+          "Sale.Application": "1.0.0",
+          "Sale.loc": "1.0.0",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
@@ -979,6 +980,14 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
+      "Sale.Application/1.0.0": {
+        "dependencies": {
+          "Sale.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "Sale.Application.dll": {}
+        }
+      },
       "Sale.Domain/1.0.0": {
         "runtime": {
           "Sale.Domain.dll": {}
@@ -992,6 +1001,15 @@
         },
         "runtime": {
           "Sale.Infrastructure.dll": {}
+        }
+      },
+      "Sale.loc/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.32",
+          "Sale.Application": "1.0.0"
+        },
+        "runtime": {
+          "Sale.loc.dll": {}
         }
       }
     }
@@ -1730,12 +1748,22 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
+    "Sale.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Sale.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "Sale.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Sale.loc/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

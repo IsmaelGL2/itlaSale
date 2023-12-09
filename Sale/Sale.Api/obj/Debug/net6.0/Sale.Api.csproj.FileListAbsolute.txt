@@ -93,3 +93,7 @@ C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Api\b
 C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Api\bin\Debug\net6.0\Sale.Infrastructure.dll
 C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Api\bin\Debug\net6.0\Sale.Infrastructure.pdb
 C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo final\Sale\Sale.Api\bin\Debug\net6.0\Sale.Domain.pdb
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo Final\Sale\Sale.Api\bin\Debug\net6.0\Sale.Application.dll
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo Final\Sale\Sale.Api\bin\Debug\net6.0\Sale.loc.dll
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo Final\Sale\Sale.Api\bin\Debug\net6.0\Sale.Application.pdb
+C:\Users\Christian\Desktop\2023-C3\Programación 2\Trabajo Final\Sale\Sale.Api\bin\Debug\net6.0\Sale.loc.pdb

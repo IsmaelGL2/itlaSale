@@ -29,8 +29,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo Final\\Sale\\Sale.Infrastructure\\Sale.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo Final\\Sale\\Sale.Infrastructure\\Sale.Infrastructure.csproj"
+              "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo Final\\Sale\\Sale.Application\\Sale.Application.csproj": {
+                "projectPath": "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo Final\\Sale\\Sale.Application\\Sale.Application.csproj"
+              },
+              "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo Final\\Sale\\Sale.loc\\Sale.loc.csproj": {
+                "projectPath": "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo Final\\Sale\\Sale.loc\\Sale.loc.csproj"
               }
             }
           }
@@ -66,6 +69,65 @@
               "privateAssets": "none"
             },
             "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo Final\\Sale\\Sale.Application\\Sale.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo Final\\Sale\\Sale.Application\\Sale.Application.csproj",
+        "projectName": "Sale.Application",
+        "projectPath": "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo Final\\Sale\\Sale.Application\\Sale.Application.csproj",
+        "packagesPath": "C:\\Users\\Christian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo Final\\Sale\\Sale.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Christian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo Final\\Sale\\Sale.Infrastructure\\Sale.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo Final\\Sale\\Sale.Infrastructure\\Sale.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
               "privateAssets": "all"
             }
           },
@@ -173,6 +235,71 @@
               "version": "[3.1.32, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo Final\\Sale\\Sale.loc\\Sale.loc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo Final\\Sale\\Sale.loc\\Sale.loc.csproj",
+        "projectName": "Sale.loc",
+        "projectPath": "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo Final\\Sale\\Sale.loc\\Sale.loc.csproj",
+        "packagesPath": "C:\\Users\\Christian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo Final\\Sale\\Sale.loc\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Christian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo Final\\Sale\\Sale.Application\\Sale.Application.csproj": {
+                "projectPath": "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo Final\\Sale\\Sale.Application\\Sale.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[3.1.32, )"
             }

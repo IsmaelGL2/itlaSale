@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Sale.Infrastructure.Context;
 using Sale.Infrastructure.Interfaces;
 using Sale.Infrastructure.Repositories;
+using Sale.loc.Dependencies;
 
 namespace Sale.Api
 {
@@ -15,9 +16,10 @@ namespace Sale.Api
 
             //Agregar dependencia del contexto
             builder.Services.AddDbContext<SaleContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("SaleContext")));
-
+            builder.Services.AddUsuarioDependency();
             //Dependencia de los repositores
             builder.Services.AddTransient<IUsuarioRepository, UsuarioRepository>();
+
 
             //Dependencias de los app services
             

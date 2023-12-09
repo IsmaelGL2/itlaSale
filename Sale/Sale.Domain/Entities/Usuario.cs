@@ -7,6 +7,7 @@ namespace Sale.Domain.Entities
 {
     public class Usuario : BaseEntity
     {
+        public int IdUsuarioCreacion { get; set; }
         public string? Nombre { get; set; }  
 
         public string? Correo { get; set; }
@@ -20,7 +21,7 @@ namespace Sale.Domain.Entities
         public string? NombreFoto { get; set; }
 
         public string? Clave { get; set; }
-
-
+        public DateTime? EnrollmentDate { get; set; }
+        public bool Eliminado { get; set; }
     }
 }

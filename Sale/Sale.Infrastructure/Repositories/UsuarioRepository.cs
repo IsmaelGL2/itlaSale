@@ -36,6 +36,24 @@ namespace Sale.Infrastructure.Repositories
             context.Usuarios.Update(usuarioToUpdate);
             context.SaveChanges();
         }
+        public override void Delete(Usuario entity)
+        {
+            var usuarioToDelete = base.GetEntity(entity.Id);
+
+            usuarioToDelete.Id = entity.Id;
+            usuarioToDelete.Eliminado = entity.Eliminado;
+
+            this.context.Usuarios.Update(usuarioToDelete);
+            this.context.SaveChanges();
+
+        }
+
+        public override List<Usuario> GetEntities()
+        {
+            return this.context.Usuarios.Where(st => !st.Eliminado)
+                                        .OrderByDescending(st => st.FechaRegistro)
+                                            .ToList(); 
+        }
     }
 
 }

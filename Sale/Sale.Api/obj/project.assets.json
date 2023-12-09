@@ -1779,6 +1779,19 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Sale.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Sale.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Sale.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sale.Application.dll": {}
+        }
+      },
       "Sale.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
@@ -1802,6 +1815,20 @@
         },
         "runtime": {
           "bin/placeholder/Sale.Infrastructure.dll": {}
+        }
+      },
+      "Sale.loc/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.32",
+          "Sale.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Sale.loc.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sale.loc.dll": {}
         }
       }
     }
@@ -6105,6 +6132,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "Sale.Application/1.0.0": {
+      "type": "project",
+      "path": "../Sale.Application/Sale.Application.csproj",
+      "msbuildProject": "../Sale.Application/Sale.Application.csproj"
+    },
     "Sale.Domain/1.0.0": {
       "type": "project",
       "path": "../Sale.Domain/Sale.Domain.csproj",
@@ -6114,11 +6146,17 @@
       "type": "project",
       "path": "../Sale.Infrastructure/Sale.Infrastructure.csproj",
       "msbuildProject": "../Sale.Infrastructure/Sale.Infrastructure.csproj"
+    },
+    "Sale.loc/1.0.0": {
+      "type": "project",
+      "path": "../Sale.loc/Sale.loc.csproj",
+      "msbuildProject": "../Sale.loc/Sale.loc.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Sale.Infrastructure >= 1.0.0",
+      "Sale.Application >= 1.0.0",
+      "Sale.loc >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -6150,8 +6188,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo Final\\Sale\\Sale.Infrastructure\\Sale.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo Final\\Sale\\Sale.Infrastructure\\Sale.Infrastructure.csproj"
+            "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo Final\\Sale\\Sale.Application\\Sale.Application.csproj": {
+              "projectPath": "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo Final\\Sale\\Sale.Application\\Sale.Application.csproj"
+            },
+            "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo Final\\Sale\\Sale.loc\\Sale.loc.csproj": {
+              "projectPath": "C:\\Users\\Christian\\Desktop\\2023-C3\\Programación 2\\Trabajo Final\\Sale\\Sale.loc\\Sale.loc.csproj"
             }
           }
         }
