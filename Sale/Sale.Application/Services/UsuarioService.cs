@@ -8,6 +8,10 @@ using Sale.Application.Dtos.Usuario;
 using Sale.Application.Response;
 using Sale.Domain.Entities;
 using Sale.Infrastructure.Interfaces;
+using Microsoft.Extensions.Configuration;
+using Sale.Application.Exceptions;
+
+
 
 namespace Sale.Application.Services
 {
@@ -15,13 +19,17 @@ namespace Sale.Application.Services
     {
         private readonly IUsuarioRepository usuarioRepository;
         private readonly ILogger<UsuarioService> logger;
-        //private readonly IConfiguration configuration;
+        private readonly IConfiguration configuration;
+
+
         public UsuarioService(IUsuarioRepository usuarioReposiroty,
-            ILogger<UsuarioService> logger) 
+                                            ILogger<UsuarioService> logger, 
+                                                    IConfiguration configuration) 
         { 
          
             this.usuarioRepository = usuarioReposiroty;
             this.logger = logger;
+            this.configuration = configuration;
         }
         public ServicesResult GetAll()
         {
@@ -84,6 +92,18 @@ namespace Sale.Application.Services
             UsuarioResponse result = new UsuarioResponse();
             try
             {
+                //Validaciones
+                if (string.IsNullOrEmpty(dtoAdd.Nombre))
+                    throw new UsuarioServiceException(this.configuration["MensajeValidaciones:estudianteNombreRequerido"]);
+
+
+                if (dtoAdd.Nombre.Length > 50)
+                    throw new UsuarioServiceException(this.configuration["MensajeValidaciones:estudianteNombreLongitud"]);
+
+                if (!dtoAdd.EnrollmentDate.HasValue)
+                    throw new UsuarioServiceException(this.configuration["MensajeValidaciones:estudianteEnrollmentDateRequerido"]);
+
+
                 Usuario usuario = new Usuario()
                 {
                     FechaRegistro = dtoAdd.FechaMod,
@@ -139,6 +159,20 @@ namespace Sale.Application.Services
             ServicesResult result = new ServicesResult();
             try
             {
+
+                // Validaciones //
+
+                if (string.IsNullOrEmpty(dtoUpdate.Nombre))
+                    throw new UsuarioServiceException(this.configuration["MensajeValidaciones:usuarioNombreRequerido"]);
+
+
+                if (dtoUpdate.Nombre.Length > 50)
+                    throw new UsuarioServiceException(this.configuration["MensajeValidaciones:usuarioNombreLongitud"]);
+
+
+                if (!dtoUpdate.EnrollmentDate.HasValue)
+                    throw new UsuarioServiceException(this.configuration["MensajeValidaciones:usuarioEnrollmentDateRequerido"]);
+
                 Usuario usuario = new Usuario()
                 {
                     EnrollmentDate = dtoUpdate.EnrollmentDate,

@@ -46,7 +46,6 @@ namespace Sale.Infrastructure.Repositories
             this.context.Usuarios.Update(usuarioToDelete);
             this.context.SaveChanges();
 
-
         }
 
         public override List<Usuario> GetEntities()

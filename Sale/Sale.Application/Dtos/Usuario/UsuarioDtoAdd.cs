@@ -1,5 +1,6 @@
 ﻿
 
+using Microsoft.Extensions.Configuration;
 using System;
 
 namespace Sale.Application.Dtos.Usuario
