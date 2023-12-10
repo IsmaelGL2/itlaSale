@@ -6,6 +6,8 @@ using Sale.Api.Models.Modules.Usuario;
 using Sale.Domain.Entities;
 using Sale.Application.Contracts;
 using Sale.Application.Dtos.Usuario;
+using Sale.Application.Core;
+using Sale.Application.Exceptions;
 
 
 
@@ -62,14 +64,24 @@ namespace Sale.Api.Controllers
         [HttpPost("SaveUsuario")]
         public IActionResult Post([FromBody] UsuarioDtoAdd usuarioApp)
         {
-            /*if (usuarioApp == null)
+            ServicesResult result = new ServicesResult();
+            try
             {
-                return BadRequest("Los datos del usuario no pueden estar vacíos.");
-            }*/
-            var result = this.usuarioService.Save(usuarioApp);
-            if (!result.Success)
-                return BadRequest(result);
-            
+                result = usuarioService.Save(usuarioApp);
+
+                if (!result.Success)
+                    return BadRequest(result);
+
+            }
+            catch (UsuarioServiceException ssex)
+            {
+
+                result.Message = ssex.Message;
+                result.Success = false;
+            }
+
+
+
             return Ok(result);
         }
 

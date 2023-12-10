@@ -22,12 +22,12 @@ namespace Sale.Application.Services
         private readonly IConfiguration configuration;
 
 
-        public UsuarioService(IUsuarioRepository usuarioReposiroty,
+        public UsuarioService(IUsuarioRepository usuarioRepositoryy,
                                             ILogger<UsuarioService> logger, 
                                                     IConfiguration configuration) 
         { 
          
-            this.usuarioRepository = usuarioReposiroty;
+            this.usuarioRepository = usuarioRepositoryy;
             this.logger = logger;
             this.configuration = configuration;
         }
@@ -112,15 +112,21 @@ namespace Sale.Application.Services
                 };
                 this.usuarioRepository.Save(usuario);
 
-                result.Message = "Usuario creado de manera exitosa";
-                //result.UsuarioId = new usuario.IdRol;
                 
+                result.Message = this.configuration["MensajesUsuarioSuccess:AddSuccessMessage"];
+                //result.UsuarioId = new usuario.IdRol;
             }
+            catch (UsuarioServiceException ssex)
+            {
+                result.Success = false;
+                result.Message = ssex.Message;
+                this.logger.LogError(result.Message, ssex.ToString());
 
+            }
             catch (Exception ex)
             {
                 result.Success = false;
-                result.Message = $"Error guardando los usuarios. ";
+                result.Message = this.configuration["MensajesUsuarioSuccess:AddErrorMessage"];
                 this.logger.LogError(result.Message, ex.ToString());
             }
             return result;

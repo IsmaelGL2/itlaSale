@@ -11,5 +11,6 @@ namespace Sale.Application.Dtos.Usuario
         public string? Correo { get; set; }
         public string? Telefono { get; set; }
         public DateTime? FechaRegistro { get; set; }
+        public DateTime? EnrollmentDate { get; set; }
     }
 }

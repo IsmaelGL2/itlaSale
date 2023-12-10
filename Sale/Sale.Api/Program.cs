@@ -18,7 +18,7 @@ namespace Sale.Api
             builder.Services.AddDbContext<SaleContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("SaleContext")));
             builder.Services.AddUsuarioDependency();
             //Dependencia de los repositores
-            builder.Services.AddTransient<IUsuarioRepository, UsuarioRepository>();
+            //builder.Services.AddTransient<IUsuarioRepository, UsuarioRepository>();
 
 
             //Dependencias de los app services
